@@ -1,1 +1,3 @@
 # TTL-Gatter-Binaer-Sieben-Segment-Wandler
+
+In Arbeit...
