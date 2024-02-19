@@ -59,10 +59,4 @@ Als Spannungsversorgung habe ich einen Arduino-UNO benutzt, aber natürlich funk
 
 Link, zur Logisim Projekt Datei:
 
-![](https://github.com/FabianSchieder/TTL-Gatter-Binaer-Sieben-Segment-Wandler/blob/main/BinaerZuSiebenSegmentWandler.circ)
-
-
-
-
-
-
+https://github.com/FabianSchieder/TTL-Gatter-Binaer-Sieben-Segment-Wandler/blob/main/BinaerZuSiebenSegmentWandler.circ
