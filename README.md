@@ -16,6 +16,11 @@ Stückliste:
 - 5V Spannungsversorgung
 
 
+Angefangen habe ich erstmal mit der Erstellung der Logik-Schaltung in Logisim.
+Hier habe ich zuerst die Wahrheitstabelle erstellt:
+
+?[]("https://github.com/FabianSchieder/TTL-Gatter-Binaer-Sieben-Segment-Wandler/blob/main/Wahrheitstabelle.png", Wahrheitstabelle)
+
 
 
 
