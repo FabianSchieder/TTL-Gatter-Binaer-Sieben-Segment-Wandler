@@ -18,8 +18,18 @@ Stückliste:
 
 Angefangen habe ich erstmal mit der Erstellung der Logik-Schaltung in Logisim.
 Hier habe ich zuerst die Wahrheitstabelle erstellt:
+Die Eingänge sind ABCD und die Ausgänge sind jeweils die Segmente der Sieben-Segment Anzeige.
 
-?[]("https://github.com/FabianSchieder/TTL-Gatter-Binaer-Sieben-Segment-Wandler/blob/main/Wahrheitstabelle.png", Wahrheitstabelle)
+![](https://github.com/FabianSchieder/TTL-Gatter-Binaer-Sieben-Segment-Wandler/blob/main/Wahrheitstabelle.png "Wahrheitstabelle")
+
+Danach habe ich daraus die Logik-Schaltung aufgebaut:
+
+![](https://github.com/FabianSchieder/TTL-Gatter-Binaer-Sieben-Segment-Wandler/blob/main/LogikSchaltung.png "Logik-Schaltung")
+
+Um den Aufbau zu erleichtern habe ich sie dann in eine Art Schaltplan umgewandelt:
+
+![](https://github.com/FabianSchieder/TTL-Gatter-Binaer-Sieben-Segment-Wandler/blob/main/Schaltplan.png "Schaltplan")
+
 
 
 
