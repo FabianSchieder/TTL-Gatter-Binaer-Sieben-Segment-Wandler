@@ -31,12 +31,35 @@ Um den Aufbau zu erleichtern habe ich sie dann in eine Art Schaltplan umgewandel
 ![](https://github.com/FabianSchieder/TTL-Gatter-Binaer-Sieben-Segment-Wandler/blob/main/Schaltplan.png "Schaltplan")
 
 
-Nach der ganzen Theorie gings dann ans Eingemacht, und zwar die Schaltung aufzubauen:
+Nach der ganzen Theorie gings dann ans Eingemachte, und zwar die Schaltung aufzubauen:
 
 ![](https://github.com/FabianSchieder/TTL-Gatter-Binaer-Sieben-Segment-Wandler/blob/main/GesamteSchaltung.jpg "Gesamte Schaltung")
 
 Den ersten Schritt den ich gemacht habe war das Aufbauen der Eingabe.
 Diese besteht aus 4 Knöpfen, und die Ausgänge der Knöpfe sind jeweils mit einem pull-down-Widerstand verbunden.
+
+![](https://github.com/FabianSchieder/TTL-Gatter-Binaer-Sieben-Segment-Wandler/blob/main/Eingabe.jpg "Eingabe")
+
+Nach der Eingabe kommt der kniffligste Teil der Schaltung - die Logik.
+Einen Schönheitspreis gewinnt mein Aufbau auf jeden Fall nicht, aber das schöner aufzubauen wäre zu zeitaufwändig.
+Ich musste den Schaltplan ein wenig abändern, da ich nicht genügend ICs hatte. Das Gatter ganz unten rechts ist z.B. ein CMOS-AND-Gatter.
+Alle anderen ICs sind trotzdem TTL Gatter.
+
+![](https://github.com/FabianSchieder/TTL-Gatter-Binaer-Sieben-Segment-Wandler/blob/main/ICs.jpg "Logik")
+
+Für die Sieben-Segment Anzeige habe ich Dekadenwiderstände benutzt, weil diese viel platzspahrender sind.
+Natürlich funktionieren da auch "normale" Widerstände nehmen. In diesem Fall 1kOhm.
+Viel mehr brauche ich dazu nicht sagen.
+
+![](https://github.com/FabianSchieder/TTL-Gatter-Binaer-Sieben-Segment-Wandler/blob/main/SiebenSegment.jpg "Sieben-Segment")
+
+Als Spannungsversorgung habe ich einen Arduino-UNO benutzt, aber natürlich funktioniert hier jede beliebige 5V DC Spannungsquelle.
+
+
+
+Link, zur Logisim Projekt Datei:
+
+![](https://github.com/FabianSchieder/TTL-Gatter-Binaer-Sieben-Segment-Wandler/blob/main/BinaerZuSiebenSegmentWandler.circ)
 
 
 
